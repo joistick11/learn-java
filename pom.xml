@@ -16,6 +16,17 @@
 
     <dependencies>
         <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>${version.javaee}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>5.0.0.Final</version>
+        </dependency>
+        <dependency>
             <groupId>org.jboss.weld.se</groupId>
             <artifactId>weld-se</artifactId>
             <version>${version.weld}</version>
